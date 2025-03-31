@@ -7,7 +7,7 @@
     "url": "https://github.com/dlin0320/snap-poc"
   },
   "source": {
-    "shasum": "+Zmr+iRbazlWWgVOwIVEAqv+VnsC0gYbq7dIeXKOU/k=",
+    "shasum": "FniRbGAZSxZ9ZSiQpBcSPKVgRC4VAHISHZaGyjQeYFo=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -29,6 +29,6 @@
     "endowment:page-home": {},
     "endowment:ethereum-provider": {}
   },
-  "platformVersion": "6.14.0",
+  "platformVersion": "6.21.0",
   "manifestVersion": "0.1"
 }
