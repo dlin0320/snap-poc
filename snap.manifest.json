@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A snap that provides security analysis for blockchain addresses.",
   "proposedName": "BlockChain Security",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/dlin0320/snap-poc"
   },
   "source": {
-    "shasum": "h+8cjmA7Pd+GUIRADrDI0R0vEMi6F0WOl3xPHJihLL0=",
+    "shasum": "1jSSmMUwZxAj8Myu4h0YJJn9v4Vxc+7kjkY/CdRw7O0=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
