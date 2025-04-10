@@ -7,6 +7,7 @@ import type {
 import { AddressDataError } from './components/AddressDataError';
 import { AddressSecurityInfo } from './components/AddressSecurityInfo';
 import { MockResponse } from './components/MockResponse';
+import { ExactDesignRiskLabel } from './components/NewMockDesign';
 import { NoDestinationAddress } from './components/NoDestinationAddress';
 import { NoSecurityData } from './components/NoSecurityData';
 
@@ -118,3 +119,10 @@ export const getMockResponse = async (
     ),
   };
 };
+
+export const getMockNewDesign =
+  async (): Promise<OnTransactionResponse | null> => {
+    return {
+      content: <ExactDesignRiskLabel />,
+    };
+  };

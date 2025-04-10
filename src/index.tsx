@@ -10,7 +10,7 @@ import { UserInputEventType } from '@metamask/snaps-sdk';
 
 import { AccountsError } from './components/AccountsError';
 import { AccountsList } from './components/AccountsList';
-import { getMockResponse } from './utils';
+import { getMockNewDesign } from './utils';
 
 export const onInstall: OnInstallHandler = async () => {
   console.log('Installing the Snap...');
@@ -32,8 +32,10 @@ export const onTransaction: OnTransactionHandler = async ({
   transaction,
   chainId,
 }) => {
+  console.log('transaction:', transaction);
   console.log('chainId', chainId);
-  return getMockResponse(transaction);
+  return getMockNewDesign();
+  // return getMockResponse(transaction);
   // return await getTransactionInsight(transaction, chainId);
 };
 

@@ -4,14 +4,15 @@
   "proposedName": "BlockChain Security",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dlin0320/snap-poc"
+    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
   },
   "source": {
-    "shasum": "FniRbGAZSxZ9ZSiQpBcSPKVgRC4VAHISHZaGyjQeYFo=",
+    "shasum": "Cm4jj+yajJR8BjP6DgCNlEblUaj6Fdsg+tKCxQUznmU=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "packageName": "snap-poc-2",
+        "iconPath": "images/bcs-logo.svg",
+        "packageName": "snap",
         "registry": "https://registry.npmjs.org/"
       }
     }
@@ -29,6 +30,6 @@
     "endowment:page-home": {},
     "endowment:ethereum-provider": {}
   },
-  "platformVersion": "6.21.0",
+  "platformVersion": "6.14.0",
   "manifestVersion": "0.1"
 }
